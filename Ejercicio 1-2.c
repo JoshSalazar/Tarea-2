@@ -9,13 +9,13 @@ int main ()
   int area = 0;
   int circ = 0;
 
-  prinft("Introduzca el radio del círculo. \n");
+  printf("Introduzca el radio del círculo. \n");
   scanf("%d", &r);
 
   area = pi * r * r;
   circ = 2 * pi * r;
 
-  prinft("Estos son los resultados: \n");
+  printf("Estos son los resultados: \n");
   printf("Área: \n");
   printf("%d \n", area);
   printf("Circunferencia: \n");
