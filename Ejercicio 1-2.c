@@ -4,22 +4,22 @@
 
 int main ()
 {
-  int r = 0;
-  int pi = 3.14159265359;
-  int area = 0;
-  int circ = 0;
+  float r = 0;
+  float pi = 3.14159265359;
+  float area = 0;
+  float circ = 0;
 
   printf("Introduzca el radio del círculo. \n");
-  scanf("%d", &r);
+  scanf("%f", &r);
 
   area = pi * r * r;
   circ = 2 * pi * r;
 
   printf("Estos son los resultados: \n");
   printf("Área: \n");
-  printf("%d \n", area);
+  printf("%f \n", area);
   printf("Circunferencia: \n");
-  printf("%d", circ);
+  printf("%f", circ);
 
   return 0;
 }
