@@ -6,14 +6,22 @@ int main()
 
 {
 
-  int din = 0;
-  int inte = 0;
-  int res = 0;
+  float din = 0;
+  float inte = 0;
+  float res = 0;
 
   printf("Ingrese la cantidad de dinero inicial. \n");
-  scanf("%d", &din);
+  scanf("%f", &din);
 
   printf("Ingrese la tasa de interés. \n");
-  scanf("%d", &inte);
+  scanf("%f", &inte);
 
-  res = 
+  res = din * inte / 100;
+
+  res = res + din;
+
+  printf("Este será el monto que se obtendrá al final del mes: %f", res);
+
+  return 0;
+
+}
