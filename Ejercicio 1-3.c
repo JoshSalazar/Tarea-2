@@ -5,15 +5,17 @@ int main()
 
 {
 
-  int dol = 0;
-  int pes = 0;
+  float dol = 0.;
+  float pes = 0.;
 
   printf("Ingrese la cantidad en dólares. \n");
-  scanf("%d", &dol);
+  scanf("%f", &dol);
 
   pes = dol * 11.69;
 
   printf("Este es el valor en pesos: \n");
-  printf("%d", pes);
+  printf("%f", pes);
+
+  return 0;
 
 }
