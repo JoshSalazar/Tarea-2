@@ -31,7 +31,7 @@ int main()
   
   }
 
-  printf("Este es el costo total del ticket: %f", cost);
+  printf("Este es el costo total del ticket: %f \n:)", cost);
 
   return 0;
 
