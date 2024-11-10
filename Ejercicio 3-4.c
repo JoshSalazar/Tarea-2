@@ -21,7 +21,7 @@ int main()
     {
       imp = imp * c;
     }
-    printf("Este es el resultado: %d", imp);
+    printf("Este es el resultado: %d :)", imp);
   }
   return 0;
 }
