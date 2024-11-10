@@ -20,7 +20,7 @@ int main()
 
   res = res + din;
 
-  printf("Este será el monto que se obtendrá al final del mes: %f", res);
+  printf("Este será el monto que se obtendrá al final del mes: %f \n:)", res);
 
   return 0;
 
