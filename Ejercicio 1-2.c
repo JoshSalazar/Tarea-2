@@ -19,7 +19,7 @@ int main ()
   printf("Área: \n");
   printf("%f \n", area);
   printf("Circunferencia: \n");
-  printf("%f", circ);
+  printf("%f \n:)", circ);
 
   return 0;
 }
