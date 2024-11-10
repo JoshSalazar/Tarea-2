@@ -31,7 +31,7 @@ int main()
 	printf("%d - %d = %d \n", a, b, resta);
 
 	printf("Multiplicación: \n");
-	printf("%d * %d = %d \n :)", a, b, multiplicacion);
+	printf("%d * %d = %d \n:)", a, b, multiplicacion);
 
 	return 0;
 
