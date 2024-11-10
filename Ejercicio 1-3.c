@@ -14,7 +14,7 @@ int main()
   pes = dol * 11.69;
 
   printf("Este es el valor en pesos: \n");
-  printf("%f", pes);
+  printf("%f \n:)", pes);
 
   return 0;
 
