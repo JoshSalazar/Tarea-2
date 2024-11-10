@@ -25,13 +25,13 @@ int main()
 
 	printf("Estos son los resultados: \n");
 	printf("Suma: \n");
-	printf("%d + %d = %d\n", a, b, suma);
+	printf("%d + %d = %d \n", a, b, suma);
 
 	printf("Resta: \n");
-	printf("%d - %d = %d\n", a, b, resta);
+	printf("%d - %d = %d \n", a, b, resta);
 
 	printf("Multiplicación: \n");
-	printf("%d * %d = %d\n", a, b, multiplicacion);
+	printf("%d * %d = %d \n :)", a, b, multiplicacion);
 
 	return 0;
 
