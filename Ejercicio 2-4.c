@@ -21,15 +21,15 @@ int main()
   }
   else if(n1 % n2 == 0)
   {
-    printf("%d es divisor de %d", n2, n1);
+    printf("%d es divisor de %d \n:)", n2, n1);
   }
   else if(n2 % n1 == 0)
   {
-    printf("%d es divisor de %d", n1, n2);
+    printf("%d es divisor de %d \n:)", n1, n2);
   }
   else
   {
-    printf("Ningún número es divisor del otro.");
+    printf("Ningún número es divisor del otro. :)");
   }
 
   return 0;
