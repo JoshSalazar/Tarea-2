@@ -7,11 +7,21 @@ int main()
 
 {
   int N = 0;
-  int imp = 0;
-  int c = 0;
-  printf("Ingrese un número N \n");
+  int imp = 1;
+  int c = 1;
+  printf("Ingrese un número N natural.\n");
   scanf("%d", &N);
-  for(c = 0; c < N; c++)
+  if(N <= 0)
   {
-    
+    printf("Los números naturales son positivos. :)");
+  }
+  else if(N > 0)
+  {
+    for(c = 1; c <= N; c++)
+    {
+      imp = imp * c;
+    }
+    printf("Este es el resultado: %d", imp);
+  }
+  return 0;
 }
