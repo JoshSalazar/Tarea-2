@@ -22,7 +22,7 @@ int main()
 
     total = cos - (cos * desc);
 
-    printf("El costo con descuento es: %f", total);
+    printf("El costo con descuento es: %f\n :)", total);
 
   }
 
@@ -30,7 +30,7 @@ int main()
     
   {
 
-    printf("El costo es: %f", cos);
+    printf("El costo es: %f" \n:), cos);
 
   }
 
