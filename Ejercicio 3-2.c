@@ -35,7 +35,8 @@ int main()
   printf("La cantidad de números positivos es : %d \n", pos);
   printf("La cantidad de números nulos es: %d \n", nul);
   printf("La cantidad de números negativos es: %d \n", neg);
-
+  printf(":)");
+  
   return 0;
 
 }
