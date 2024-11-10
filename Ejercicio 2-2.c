@@ -33,7 +33,7 @@ int main()
 
   }
 
-  printf("Este es el suelto total: %f", total);
+  printf("Este es el suelto total: %f \n:)", total);
 
   return 0;
   
