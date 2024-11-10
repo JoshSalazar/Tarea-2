@@ -18,7 +18,7 @@ int main()
   
   for(c = 0; c < N; c++)
   {
-    printf("Ingrese un número entero. \n");
+    printf("Ingrese un número entero para el arreglo. \n");
     scanf("%d", &a);
     
     arr[c] = a;  
