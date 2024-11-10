@@ -19,7 +19,7 @@ int main()
     }
   }
 
-  printf("La suma de los números pares comprendidos entre el 10 y el 50 es : %d", suma);
+  printf("La suma de los números pares comprendidos entre el 10 y el 50 es: %d :)", suma);
 
   return 0;
   
